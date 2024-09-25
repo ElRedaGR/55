@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ElReda GR - الصفحة الرئيسية</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav>
+        <div class="logo">
+            <img src="path_to_logo.png" alt="ElReda GR Logo">
+        </div>
+        <ul>
+            <li><a href="index.html">الرئيسية</a></li>
+            <li><a href="products.html">المنتجات</a></li>
+            <li><a href="contact.html">اتصل بنا</a></li>
+            <li><a href="login.html">تسجيل دخول</a></li>
+        </ul>
+    </nav>
+
+    <section class="main">
+        <div class="content">
+            <h1>أفضل العروض على التكييفات</h1>
+            <p>استمتع بأفضل الخصومات والعروض الحصرية</p>
+            <button class="btn1"><a href="products.html">اكتشف الآن</a></button>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 ElReda GR. جميع الحقوق محفوظة.</p>
+    </footer>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ElReda GR - المنتجات</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav>
+        <div class="logo">
+            <img src="path_to_logo.png" alt="ElReda GR Logo">
+        </div>
+        <ul>
+            <li><a href="index.html">الرئيسية</a></li>
+            <li><a href="products.html">المنتجات</a></li>
+            <li><a href="contact.html">اتصل بنا</a></li>
+            <li><a href="login.html">تسجيل دخول</a></li>
+        </ul>
+    </nav>
+
+    <section class="products">
+        <h2>منتجاتنا</h2>
+        <div class="product-grid">
+            <div class="product-card">
+                <h3>تكييف شارب 1.5 حصان</h3>
+                <p>السعر: 24,400 ج.م</p>
+                <p>مميزات: كفاءة في استهلاك الطاقة، يعمل بنظام تبريد سريع.</p>
+                <button class="btn1"><a href="#">التفاصيل</a></button>
+            </div>
+            <div class="product-card">
+                <h3>تكييف شارب 2.25 حصان</h3>
+                <p>السعر: 33,935 ج.م</p>
+                <p>مميزات: تصميم أنيق، صوت هادئ أثناء التشغيل.</p>
+                <button class="btn1"><a href="#">التفاصيل</a></button>
+            </div>
+            <div class="product-card">
+                <h3>تكييف شارب 3 حصان</h3>
+                <p>السعر: 42,780 ج.م</p>
+                <p>مميزات: مناسب للمساحات الكبيرة، تكنولوجيا حديثة.</p>
+                <button class="btn1"><a href="#">التفاصيل</a></button>
+            </div>
+            <div class="product-card">
+                <h3>تكييف انفرتر شارب 1.5 حصان</h3>
+                <p>السعر: 32,900 ج.م</p>
+                <p>مميزات: موفر في استهلاك الكهرباء، يعمل بكفاءة عالية.</p>
+                <button class="btn1"><a href="#">التفاصيل</a></button>
+            </div>
+            <div class="product-card">
+                <h3>تكييف انفرتر شارب 2.25 حصان</h3>
+                <p>السعر: 47,730 ج.م</p>
+                <p>مميزات: أداء متفوق، تصميم عصري.</p>
+                <button class="btn1"><a href="#">التفاصيل</a></button>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 ElReda GR. جميع الحقوق محفوظة.</p>
+    </footer>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ElReda GR - اتصل بنا</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav>
+        <div class="logo">
+            <img src="path_to_logo.png" alt="ElReda GR Logo">
+        </div>
+        <ul>
+            <li><a href="index.html">الرئيسية</a></li>
+            <li><a href="products.html">المنتجات</a></li>
+            <li><a href="contact.html">اتصل بنا</a></li>
+            <li><a href="login.html">تسجيل دخول</a></li>
+        </ul>
+    </nav>
+
+    <section class="contact">
+        <h2>تواصل معنا</h2>
+        <form id="contact-form">
+            <label for="name">الاسم:</label>
+            <input type="text" id="name" required>
+
+            <label for="email">البريد الإلكتروني:</label>
+            <input type="email" id="email" required>
+
+            <label for="message">الرسالة:</label>
+            <textarea id="message" required></textarea>
+
+            <button type="submit">إرسال</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 ElReda GR. جميع الحقوق محفوظة.</p>
+    </footer>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ElReda GR - تسجيل دخول</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav>
+        <div class="logo">
+            <img src="path_to_logo.png" alt="ElReda GR Logo">
+        </div>
+        <ul>
+            <li><a href="index.html">الرئيسية</a></li>
+            <li><a href="products.html">المنتجات</a></li>
+            <li><a href="contact.html">اتصل بنا</a></li>
+            <li><a href="login.html">تسجيل دخول</a></li>
+        </ul>
+    </nav>
+
+    <section class="login">
+        <h2>تسجيل دخول</h2>
+        <form id="login-form">
+            <label for="username">اسم المستخدم:</label>
+            <input type="text" id="username" required>
+
+            <label for="password">كلمة المرور:</label>
+            <input type="password" id="password" required>
+
+            <button type="submit">تسجيل دخول</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 ElReda GR. جميع الحقوق محفوظة.</p>
+    </footer>
+</body>
+</html>
